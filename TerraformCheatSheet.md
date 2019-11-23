@@ -1,28 +1,27 @@
 
-#####  terraform plan
+###  terraform plan
 --- Dry run of the deployment without deploying
 
-##### terraform apply
+### terraform apply
 --- Creating the configuration in the chosen provider
 
-##### terraform graph
+### terraform graph
 --- Graphs the dependency tree of the deployment
 
-##### terraform destroy
+### terraform destroy
 --- Destroys all resources it identifies
 
-##### terraform fmt
+### terraform fmt
 --- Formats the .tf file in line with conventions
 
-##### Referencing variables
+### Referencing variables
 ```"${var.VARIABLE_NAME}"
 var.VARIABLE_NAME 
 ```
-
-##### Interpolation
+### Interpolation
 ``` "${something to interpolate}" ```
 
-##### Defining an input variable
+### Defining an input variable
 ```
 variable "NAME" {
   [CONFIG ....
@@ -34,6 +33,8 @@ variable "NAME" {
 } 
 ```
 ##### Defining an output variable name
-``` output NAME {
+``` 
+output NAME {
   value = VALUE
-} ```
+} 
+```
