@@ -33,5 +33,5 @@ output NAME {
 "${var.VARIABLE_NAME}"
 var.VARIABLE_NAME
 
-#Interpolation
+# Interpolation
 "${something to interpolate}"
