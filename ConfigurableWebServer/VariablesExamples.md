@@ -44,4 +44,5 @@ output "NAME" {
 ### Referencing variables
 ```
 var.VARIABLE_NAME
+"${var.VARIABLE_NAME}"
 ```
