@@ -15,8 +15,9 @@
 --- Formats the .tf file in line with conventions
 
 ##### Referencing variables
-"${var.VARIABLE_NAME}"
+```"${var.VARIABLE_NAME}"
 var.VARIABLE_NAME 
+```
 
 ##### Interpolation
 ``` "${something to interpolate}" ```
@@ -36,7 +37,3 @@ variable "NAME" {
 ``` output NAME {
   value = VALUE
 } ```
-
-
-
-
