@@ -1,6 +1,10 @@
 
-- Dry run of the deployment without deploying
 terraform plan
+Dry run of the deployment without deploying
 
-- Creating the configuration in the chosen provider
 terraform apply
+Creating the configuration in the chosen provider
+
+terraform graph
+Graphs the dependency tree of the deployment 
+
